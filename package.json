@@ -1,6 +1,6 @@
 {
   "name": "gdx-texture-atlas",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "libgdx texture atlas ported to typescript/javascript",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -12,7 +12,7 @@
     "prepare": "yarn run build",
     "prepublishOnly": "yarn test && yarn run lint",
     "preversion": "git fetch --tags && yarn run lint && yarn test",
-    "version": "yarn run format && git add -A src",
+    "version": "yarn run format && git add .",
     "postversion": "git push && git push --tags"
   },
   "files": [
