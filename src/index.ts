@@ -1,1 +1,2 @@
-export class TextureAtlas {}
+export { TextureAtlas } from './internal';
+export { enums } from './internal';
